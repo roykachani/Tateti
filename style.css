@@ -1,0 +1,171 @@
+body {
+  background-color: #fffff2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+main {
+  background-color: #ffff47;
+  width: 50vw;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  box-shadow: 2px 5px 15px 1px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: #4f00a3;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.5rem;
+}
+
+h2 {
+  color: #8a2bf0;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+}
+
+h3 {
+  color: #4f00a3;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+}
+
+.victorias {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  line-height: 35px;
+  /* margin: 0 80px; */
+}
+
+.victorias div {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  border: 4px solid #8a2bf0;
+  color: #8a2bf0;
+  justify-content: center;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.3rem;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: 2px 5px 15px 1px rgba(0, 0, 0, 0.3);
+}
+
+.divTateti {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.divBoton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /*     width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10px; */
+}
+
+.casilleroTateti {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 5px 5px;
+  width: 100px;
+  height: 100px;
+  background-color: #8a2bf0;
+  border-radius: 20%;
+  border: 4px solid #4f00a3;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 5.5rem;
+  margin: 2px 2px;
+  color: #fffff2;
+  box-shadow: 2px 5px 15px 1px rgba(0, 0, 0, 0.3);
+}
+
+.casilleroTateti:hover {
+  background-color: #4f00a3;
+  border: 4px solid #8a2bf0;
+  transition: all 0.3s ease;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  border: 4px solid #8a2bf0;
+  cursor: pointer;
+  color: black;
+  font-size: 1.2rem;
+  outline: none;
+  transition: all 0.3s ease;
+  box-shadow: 2px 5px 15px 1px rgba(0, 0, 0, 0.2);
+}
+
+.darkMode-container {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+}
+
+.darkMode {
+  width: 25px;
+  height: 25px;
+  background-color: #4f00a3;
+  border: 2px solid #8a2bf0;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: background-color 0.3s linear, color 0.3s linear;
+}
+
+body.dark {
+  background-color: #1f1f1f;
+  transition: background-color 0.3s linear, color 0.3s linear;
+  -webkit-transition: background-color 0.3s linear, color 0.3s linear;
+  -moz-transition: background-color 0.3s linear, color 0.3s linear;
+  -ms-transition: background-color 0.3s linear, color 0.3s linear;
+  -o-transition: background-color 0.3s linear, color 0.3s linear;
+}
+
+body.dark button {
+  background-color: #4f00a3;
+  color: white;
+}
+body.dark #darkMode {
+  background-color: white;
+}
+body.dark #victoriaX {
+  background-color: #4f00a3;
+  color: white;
+}
+body.dark #victoriaO {
+  background-color: #4f00a3;
+  color: white;
+}
