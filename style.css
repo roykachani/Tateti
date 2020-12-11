@@ -4,6 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 80vh;
+  transition: background-color 0.3s linear, color 0.3s linear;
 }
 main {
   background-color: #ffff47;
@@ -143,6 +144,10 @@ button {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   transition: background-color 0.3s linear, color 0.3s linear;
+  -webkit-transition: background-color 0.3s linear, color 0.3s linear;
+  -moz-transition: background-color 0.3s linear, color 0.3s linear;
+  -ms-transition: background-color 0.3s linear, color 0.3s linear;
+  -o-transition: background-color 0.3s linear, color 0.3s linear;
 }
 
 body.dark {
